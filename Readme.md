@@ -17,4 +17,4 @@ Result: Same 5-6 sec with conditional breakpoint and without latency.
 The remote debugging with network conditioner to 500 ms latency same result.
 
 ### Resume: ###
-The performance of conditional breakpoints in VS Code is good for local and SSH Remote mode. It's comparable to local debugging with Visual Studio exclude network latency. The debugger doesn't add instruction to the compiled code and need stop process and switch context to calculate a condition. It costs ~7 ms for 2.6 GHz CPU
+The performance of conditional breakpoints in VS Code is good for local and SSH Remote mode. It's comparable to local debugging with Visual Studio exclude network latency. The debugger doesn't add instruction to the compiled code and needs to stop the process and switch context to calculate a condition. It costs ~7 ms for a 2.6 GHz CPU
